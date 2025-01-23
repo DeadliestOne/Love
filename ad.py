@@ -20,9 +20,9 @@ def load_config():
         return [line.strip().split("|") for line in f.readlines() if line.strip()]
 
 # Initialize the bot
-BOT_TOKEN = "YOUR_BOT_TOKEN"
-API_ID = "YOUR_API_ID"
-API_HASH = "YOUR_API_HASH"
+BOT_TOKEN = "8031831989:AAH8H2ZuKhMukDZ9cWG2Kgm18hEx835jb48"
+API_ID = "26416419"
+API_HASH = "c109c77f5823c847b1aeb7fbd4990cc4"
 bot = TelegramClient("bot", API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
 # In-memory storage for hosted accounts
